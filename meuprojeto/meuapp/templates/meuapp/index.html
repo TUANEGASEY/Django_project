@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Olá Django!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um exemplo de projeto Django">
+    <meta name="keywords" content="Django, exemplo, projeto">
+    <meta name="author" content="Fabricio">
+</head>
+<body>
+    <h1>{{ mensagem }}</h1>
+    <p>Bem-vindo ao meu projeto Django!</p>
+    <p>Esta é uma página de exemplo.</p>
+    <nav>
+        <ul>
+            <li><a href="/sobre">Sobre</a></li>
+            <li><a href="">Outra View 2</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <p>&copy; 2023 Meu Projeto Django</p>
+        <p>Desenvolvido por <a href="/sobreAuthor">Fabricio</a></p>   
+    </footer>
+    <script>
+        // Exemplo de script JavaScript
+        console.log("Página carregada com sucesso!");
+        document.addEventListener("DOMContentLoaded", function() {
+            alert("Bem-vindo ao meu projeto Django! ;)");
+        });
+    </script>
+    <style>
+        /* Exemplo de estilo CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0cca5e;
+            color: #333;
+            margin: 0;
+            padding: 20%;
+            line-height: 1.6;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 12px;
+            color: #777;
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ccc;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+          
+        }
+        footer a {
+            color: #777;
+            text-decoration: none;
+        }
+        /* Adicione mais estilos conforme necessário */
+    </style>
+</body>
+</html>
