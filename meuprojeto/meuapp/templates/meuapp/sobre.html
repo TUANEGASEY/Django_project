@@ -30,6 +30,30 @@
             display: inline;
             margin-right: 10px;
         }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 12px;
+            color: #777;
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ccc;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+          
+        }
+        footer a {
+            color: #777;
+            text-decoration: none;
+        }
 </style>
     <script>
         // Exemplo de script JavaScript
@@ -42,7 +66,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="">Página Inicial</a></li>
+            <li><a href="/index">Página Inicial</a></li>
             <li><a href="">Outra View</a></li>
             <li><a href="">Outra View 2</a></li>
         </ul>
@@ -50,6 +74,10 @@
     <headre>
         <h1>Sobre o Projeto</h1>
     </headre>
+    <footer>
+        <p>&copy; 2023 Meu Projeto Django</p>
+        <p>Desenvolvido por <a href="/sobreAuthor">Fabricio</a></p>   
+    </footer>
 
 </body>
 </html>
